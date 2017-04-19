@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dotnet-core-angularjs-quick-start:
+    image: dotnet-core-angularjs-quick-start
+    build:
+      context: ./dotnet-core-angularjs-quick-start
+      dockerfile: Dockerfile
